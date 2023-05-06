@@ -102,8 +102,8 @@ document.getElementById("checkout").onclick = function (e) {
         localStorage.removeItem('myCart');
         var razorPayGateway = new Razorpay(options);
         razorPayGateway.open();
-        window.location.href = '../Landingpage/landingpage.html';
-        alert('Thnks for shopping with us');
+        // window.location.href = '../Landingpage/landingpage.html';
+        // alert('Thnks for shopping with us');
     }
     else {
         alert('Add items in cart to proceed!!')
